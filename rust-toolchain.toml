@@ -1,0 +1,4 @@
+[toolchain]
+channel = "nightly-2022-04-11"
+targets = ["x86_64-unknown-none"]
+profile = "minimal"

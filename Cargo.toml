@@ -1,0 +1,18 @@
+[package]
+name = "x86_64-linux-nolibc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Harald Hoyer <harald@profian.com>"]
+rust-version = "1.56"
+license = "Apache-2.0"
+homepage = "https://github.com/haraldh/x86_64-linux-nolibc"
+repository = "https://github.com/haraldh/x86_64-linux-nolibc"
+description = "minimal std for x86_64-unknown-none"
+keywords = ["std", "no_std", "startup"]
+categories = ["os", "no-std"]
+exclude = [ ".gitignore", ".github/*" ]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+rcrt1 = "2.0.0"
